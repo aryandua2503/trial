@@ -1,17 +1,26 @@
   body {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("images/bg.jpg");
+    background-repeat: repeat-y;
+  }
+
+  h1 {
+    color:wheat;
   }
   
   .navbar {
     overflow: hidden;
     background-color: #333;
     border-radius: 20px;
-    width: 1411px;
+    width: 450px;
+    margin-left:auto;
+    margin-right:auto;
   }
-  
-  #first {
-      margin-left: 450px;
+ 
+  .bar {
+    margin-left:15%;
   }
+
   .navbar a {
     float: left;
     font-size: 16px;
@@ -209,7 +218,7 @@
   }
 
   #footer {
-    right:5px;
+    margin-left:84%;
     float: left;
     font-size: 16px;
     color: white;
@@ -225,28 +234,28 @@
     position: fixed;
     bottom: 0.5px;
     border-radius: 20px;
+    width: 99%;
+  }
+
+  .logos {
+    margin-left:45%;
   }
 
   #insta {
     position:absolute;
-    margin-left:630px;
     margin-top:5px;
   }
 
   #fb {
     position:absolute;
-    margin-left:695px;
     margin-top:-5px;
+    margin-left:5%;
   }
 
   #git {
     position:absolute;
-    margin-left:750px;
     margin-top:2px;
-  }
-
-  #first2 {
-    margin-left: 1200px;
+    margin-left:10%;
   }
 
   body {
@@ -255,36 +264,38 @@
 
   .container {
     background-color: rgba(0, 0, 0, 0.26);
-    height: 40vh;
+    height: 315px;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     font-size: 26px;
-    border-radius: 20px;
     margin-top: 20px;
-    width: 1412px;
+    width: 100%;
   }
 
-  .container2 {
-    background-color: rgba(0, 0, 0, 0.26);
-    height: 45vh;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    font-size: 26px;
-    border-radius: 20px;
-    margin-top: 20px;
-    width: 1412px;
+  .container.one{
+    height: 315px;
+  }
+
+  .container.two{
+    height: 315px;
+  }
+
+  .container.three{
+    height: 350px;
   }
 
   .middlebar {
     overflow: hidden;
-    background-color: rgba(69, 77, 80, 0.671);
+    background-color: rgba(154, 173, 180, 0.671);
     height: 35px;
-    width:1400px;
+    width: 50%;
     border-radius: 20px;
     padding: 6px;
     margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 400px;
   }
 
   #sem {
@@ -296,7 +307,7 @@
   .tile {
     height: 270px;
     width: 250px;
-    background-color: rgb(15, 22, 26);
+    background-color: rgb(127, 171, 197);
     display: block;
     margin-top: 20px;
     border-radius: 20px;
@@ -311,6 +322,14 @@
 
   .img_text {
     font-size: 20px;
-    color: white;
+    color: rgb(15, 15, 15);
+    font-weight: bold;
+  }
+
+  .just_text {
+    font-size: 36px;
+    color: rgb(15, 15, 15);
+    font-weight: bold;
+    margin-top:75px;
   }
 
